@@ -1,9 +1,9 @@
-import cv2
-import pickle
-import face_recognition
+import cv2 # Librería para procesamiento de imágenes y video
+import pickle # Librería para serializar y deserializar objetos en Python
+import face_recognition # Librería para reconocimiento facial basada en deep learning
 
 # 1. Cargar el modelo entrenado con los vectores y nombres
-print("Cargando modelo de Inteligencia Artificial...")
+print("Cargando modelo de Inteligencia Artificial...") 
 with open('modelo_ia.pkl', 'rb') as f:
     data = pickle.load(f)
 
